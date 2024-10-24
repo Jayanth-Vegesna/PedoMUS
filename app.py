@@ -4,7 +4,6 @@ from db import init_db
 from home import home_page
 from login import login_page
 from register import register_page
-from config import API_KEY
 
 genai.configure(api_key=st.secrets["API_Key"])
 
