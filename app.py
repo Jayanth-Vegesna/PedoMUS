@@ -6,7 +6,7 @@ from login import login_page
 from register import register_page
 from config import API_KEY
 
-genai.configure(api_key=API_KEY)
+genai.configure(api_key=st.secrets[""])
 
 init_db()
 if "logged_in" not in st.session_state:
