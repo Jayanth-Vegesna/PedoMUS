@@ -935,8 +935,5 @@ def app():
     else:
         login_page()
     
-
-    main()
-
 if __name__ == "__main__":
     app()
