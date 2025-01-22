@@ -1,0 +1,10 @@
+pandas 
+PyPDF2
+requests
+bcrypt
+pytz
+uuid
+datetime
+python-pptx
+google.generativeai
+utils
