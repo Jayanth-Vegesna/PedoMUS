@@ -56,4 +56,5 @@ For more information, feel free to reach out:
 
 - **Jayanth Vegesna**: [jayanthvegesna@gmail.com](mailto:jayanthvegesna@gmail.com)
 - **Mus Ab Ali**: [malikshahabji02@gmail.com](mailto:malikshahabji02@gmail.com)
+
 Pedomus is designed to transform the way students and teachers engage with learning materials, offering a seamless, interactive, and efficient educational experience.
