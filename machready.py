@@ -15,21 +15,11 @@ from datetime import datetime, timedelta
 genai.configure(api_key=st.secrets["API_KEY"])
 db_path = os.path.join(os.getcwd(), "codes.db")
 def login_page():
-    st.subheader("ThisistheFUTURE")
     st.markdown("<h1 style='text-align: center; color: #ff5733;'>PedoMUS</h1>", unsafe_allow_html=True)
     st.markdown("""
     ### Welcome to PedoMUS
     **PedoMUS** is a comprehensive educational dashboard that provides an array of tools to support effective learning. The platform allows users to track and manage attendance with ease, interact with uploaded PPTs and PDFs through an intelligent chatbot that can summarize and explain content, and generate multiple-choice questions based on notes to aid in self-assessment. Additionally, PedoMUS offers access to simulation tools that facilitate a deeper understanding of complex concepts. Together, these features create an integrated, user-friendly environment to enrich the educational experience.
     """)
-    # Auto-playing and looping video using custom HTML
-    st.write("### Watch this while you log in!")
-    video_html = """
-    <video width="700" autoplay loop muted>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    """
-    st.markdown(video_html, unsafe_allow_html=True)
 
     user_id = st.text_input("User ID (Numerical Only)")
     password = st.text_input("Password", type="password")
